@@ -1,0 +1,451 @@
+2026-03-22 02:57:46,700 INFO: Logging to saved_models/train.log
+2026-03-22 02:57:46,702 INFO: Run id: 1l_4h_16d_original_default_params
+2026-03-22 02:57:46,703 INFO: Using device: cuda
+2026-03-22 02:57:46,703 INFO: Loading data...
+2026-03-22 02:58:09,645 INFO: Building model...
+2026-03-22 02:58:09,932 INFO: Specified number of 60000 updates amounts to 3000 epochs with 20 updates per epoch.
+2026-03-22 02:58:09,932 INFO: Save intervals in epochs: [(900, 1000), (1900, 2000), (2900, 3000)]
+2026-03-22 02:58:09,994 INFO: Training...
+2026-03-22 02:58:43,072 INFO: Epoch    1: train loss = 2.90045 ± 0.34887
+2026-03-22 02:58:50,629 INFO: Epoch    2: train loss = 1.57633 ± 0.31683
+2026-03-22 02:58:58,239 INFO: Epoch    3: train loss = 1.07290 ± 0.13289
+2026-03-22 02:59:05,922 INFO: Epoch    4: train loss = 0.95803 ± 0.16302
+2026-03-22 02:59:13,660 INFO: Epoch    5: train loss = 0.84040 ± 0.11003
+2026-03-22 02:59:21,418 INFO: Epoch    6: train loss = 0.67160 ± 0.08278
+2026-03-22 02:59:29,227 INFO: Epoch    7: train loss = 0.58224 ± 0.06378
+2026-03-22 02:59:37,126 INFO: Epoch    8: train loss = 0.52964 ± 0.06521
+2026-03-22 02:59:45,116 INFO: Epoch    9: train loss = 0.48851 ± 0.04364
+2026-03-22 02:59:53,214 INFO: Epoch   10: train loss = 0.46321 ± 0.04098
+2026-03-22 03:00:01,409 INFO: Epoch   11: train loss = 0.45598 ± 0.03676
+2026-03-22 03:00:09,744 INFO: Epoch   12: train loss = 0.44570 ± 0.03710
+2026-03-22 03:00:18,138 INFO: Epoch   13: train loss = 0.43731 ± 0.02799
+2026-03-22 03:00:26,644 INFO: Epoch   14: train loss = 0.42466 ± 0.04008
+2026-03-22 03:00:35,320 INFO: Epoch   15: train loss = 0.42629 ± 0.03382
+2026-03-22 03:00:44,202 INFO: Epoch   16: train loss = 0.44790 ± 0.04555
+2026-03-22 03:00:53,317 INFO: Epoch   17: train loss = 0.43446 ± 0.03600
+2026-03-22 03:01:02,380 INFO: Epoch   18: train loss = 0.41701 ± 0.03726
+2026-03-22 03:01:11,273 INFO: Epoch   19: train loss = 0.41255 ± 0.04673
+2026-03-22 03:01:19,965 INFO: Epoch   20: train loss = 0.40716 ± 0.04334
+2026-03-22 03:02:46,876 INFO: Epoch   30: train loss = 0.38490 ± 0.04257
+2026-03-22 03:04:14,319 INFO: Epoch   40: train loss = 0.37036 ± 0.03435
+2026-03-22 03:05:41,695 INFO: Epoch   50: train loss = 0.36325 ± 0.03677
+2026-03-22 03:07:08,890 INFO: Epoch   60: train loss = 0.34719 ± 0.02604
+2026-03-22 03:08:36,039 INFO: Epoch   70: train loss = 0.35637 ± 0.02918
+2026-03-22 03:10:03,435 INFO: Epoch   80: train loss = 0.33837 ± 0.03079
+2026-03-22 03:11:30,713 INFO: Epoch   90: train loss = 0.32852 ± 0.03107
+2026-03-22 03:12:58,145 INFO: Epoch  100: train loss = 0.31889 ± 0.02377
+2026-03-22 03:13:35,706 INFO: Evaluation: target = short, train loss = 0.37671, train acc = 0.87546; val loss = 0.66453, val acc = 0.82698
+2026-03-22 03:13:35,706 INFO: Evaluation: target = host, train loss = 0.06726, train acc = 0.96807; val loss = 0.34523, val acc = 0.90016
+2026-03-22 03:15:03,268 INFO: Epoch  110: train loss = 0.31769 ± 0.01984
+2026-03-22 03:16:30,679 INFO: Epoch  120: train loss = 0.31007 ± 0.02562
+2026-03-22 03:17:57,962 INFO: Epoch  130: train loss = 0.31639 ± 0.02267
+2026-03-22 03:19:24,980 INFO: Epoch  140: train loss = 0.31136 ± 0.02576
+2026-03-22 03:20:52,150 INFO: Epoch  150: train loss = 0.30853 ± 0.02114
+2026-03-22 03:22:19,171 INFO: Epoch  160: train loss = 0.29777 ± 0.01882
+2026-03-22 03:23:45,904 INFO: Epoch  170: train loss = 0.30096 ± 0.02985
+2026-03-22 03:25:12,719 INFO: Epoch  180: train loss = 0.29651 ± 0.01942
+2026-03-22 03:26:38,989 INFO: Epoch  190: train loss = 0.29342 ± 0.02035
+2026-03-22 03:28:05,303 INFO: Epoch  200: train loss = 0.29171 ± 0.02130
+2026-03-22 03:28:28,961 INFO: Evaluation: target = short, train loss = 0.35889, train acc = 0.88163; val loss = 0.58689, val acc = 0.83770
+2026-03-22 03:28:28,961 INFO: Evaluation: target = host, train loss = 0.05646, train acc = 0.97325; val loss = 0.48089, val acc = 0.88277
+2026-03-22 03:29:55,722 INFO: Epoch  210: train loss = 0.29487 ± 0.01761
+2026-03-22 03:31:22,094 INFO: Epoch  220: train loss = 0.29471 ± 0.01187
+2026-03-22 03:32:48,458 INFO: Epoch  230: train loss = 0.28384 ± 0.01542
+2026-03-22 03:34:14,755 INFO: Epoch  240: train loss = 0.29041 ± 0.02063
+2026-03-22 03:35:41,065 INFO: Epoch  250: train loss = 0.29389 ± 0.02259
+2026-03-22 03:37:07,423 INFO: Epoch  260: train loss = 0.28313 ± 0.01943
+2026-03-22 03:38:33,553 INFO: Epoch  270: train loss = 0.28193 ± 0.02082
+2026-03-22 03:39:59,780 INFO: Epoch  280: train loss = 0.28323 ± 0.01803
+2026-03-22 03:41:25,989 INFO: Epoch  290: train loss = 0.28138 ± 0.01851
+2026-03-22 03:42:52,036 INFO: Epoch  300: train loss = 0.27916 ± 0.01850
+2026-03-22 03:43:15,532 INFO: Evaluation: target = short, train loss = 0.36425, train acc = 0.88489; val loss = 0.54434, val acc = 0.84152
+2026-03-22 03:43:15,533 INFO: Evaluation: target = host, train loss = 0.05306, train acc = 0.97420; val loss = 0.28061, val acc = 0.92578
+2026-03-22 03:44:41,639 INFO: Epoch  310: train loss = 0.27794 ± 0.01845
+2026-03-22 03:46:07,550 INFO: Epoch  320: train loss = 0.27940 ± 0.01961
+2026-03-22 03:47:33,429 INFO: Epoch  330: train loss = 0.28283 ± 0.01512
+2026-03-22 03:48:59,131 INFO: Epoch  340: train loss = 0.27895 ± 0.01555
+2026-03-22 03:50:24,661 INFO: Epoch  350: train loss = 0.29407 ± 0.02099
+2026-03-22 03:51:50,434 INFO: Epoch  360: train loss = 0.27875 ± 0.01874
+2026-03-22 03:53:15,956 INFO: Epoch  370: train loss = 0.28117 ± 0.01726
+2026-03-22 03:54:41,332 INFO: Epoch  380: train loss = 0.27777 ± 0.01454
+2026-03-22 03:56:06,983 INFO: Epoch  390: train loss = 0.27118 ± 0.02020
+2026-03-22 03:57:32,551 INFO: Epoch  400: train loss = 0.27703 ± 0.01782
+2026-03-22 03:57:55,959 INFO: Evaluation: target = short, train loss = 0.34480, train acc = 0.88627; val loss = 0.51147, val acc = 0.84759
+2026-03-22 03:57:55,959 INFO: Evaluation: target = host, train loss = 0.05156, train acc = 0.97552; val loss = 0.34741, val acc = 0.91123
+2026-03-22 03:59:21,449 INFO: Epoch  410: train loss = 0.27059 ± 0.01950
+2026-03-22 04:00:46,777 INFO: Epoch  420: train loss = 0.27106 ± 0.01917
+2026-03-22 04:02:12,026 INFO: Epoch  430: train loss = 0.26876 ± 0.01989
+2026-03-22 04:03:37,055 INFO: Epoch  440: train loss = 0.26840 ± 0.01639
+2026-03-22 04:05:02,113 INFO: Epoch  450: train loss = 0.27080 ± 0.02084
+2026-03-22 04:06:27,256 INFO: Epoch  460: train loss = 0.26962 ± 0.01774
+2026-03-22 04:07:52,389 INFO: Epoch  470: train loss = 0.26789 ± 0.01566
+2026-03-22 04:09:17,461 INFO: Epoch  480: train loss = 0.26823 ± 0.01380
+2026-03-22 04:10:42,492 INFO: Epoch  490: train loss = 0.27867 ± 0.02044
+2026-03-22 04:12:07,698 INFO: Epoch  500: train loss = 0.26603 ± 0.01746
+2026-03-22 04:12:31,043 INFO: Evaluation: target = short, train loss = 0.35623, train acc = 0.88845; val loss = 0.56401, val acc = 0.84960
+2026-03-22 04:12:31,044 INFO: Evaluation: target = host, train loss = 0.04842, train acc = 0.97701; val loss = 0.34845, val acc = 0.90480
+2026-03-22 04:13:56,339 INFO: Epoch  510: train loss = 0.26394 ± 0.01886
+2026-03-22 04:15:21,900 INFO: Epoch  520: train loss = 0.29665 ± 0.02107
+2026-03-22 04:16:47,762 INFO: Epoch  530: train loss = 0.27809 ± 0.01824
+2026-03-22 04:18:13,655 INFO: Epoch  540: train loss = 0.27446 ± 0.01960
+2026-03-22 04:19:39,526 INFO: Epoch  550: train loss = 0.27649 ± 0.01878
+2026-03-22 04:21:05,338 INFO: Epoch  560: train loss = 0.27201 ± 0.01929
+2026-03-22 04:22:31,069 INFO: Epoch  570: train loss = 0.27351 ± 0.01659
+2026-03-22 04:23:57,025 INFO: Epoch  580: train loss = 0.27149 ± 0.01382
+2026-03-22 04:25:22,932 INFO: Epoch  590: train loss = 0.27321 ± 0.01897
+2026-03-22 04:26:48,752 INFO: Epoch  600: train loss = 0.26492 ± 0.01760
+2026-03-22 04:27:12,171 INFO: Evaluation: target = short, train loss = 0.34175, train acc = 0.88797; val loss = 0.50981, val acc = 0.85176
+2026-03-22 04:27:12,172 INFO: Evaluation: target = host, train loss = 0.04640, train acc = 0.97804; val loss = 0.41566, val acc = 0.91995
+2026-03-22 04:28:38,012 INFO: Epoch  610: train loss = 0.26316 ± 0.01263
+2026-03-22 04:30:03,939 INFO: Epoch  620: train loss = 0.32014 ± 0.02229
+2026-03-22 04:31:29,994 INFO: Epoch  630: train loss = 0.28969 ± 0.01705
+2026-03-22 04:32:56,131 INFO: Epoch  640: train loss = 0.28088 ± 0.01854
+2026-03-22 04:34:22,152 INFO: Epoch  650: train loss = 0.28232 ± 0.02212
+2026-03-22 04:35:48,268 INFO: Epoch  660: train loss = 0.28339 ± 0.01525
+2026-03-22 04:37:14,424 INFO: Epoch  670: train loss = 0.27712 ± 0.01382
+2026-03-22 04:38:40,554 INFO: Epoch  680: train loss = 0.28149 ± 0.02132
+2026-03-22 04:40:06,841 INFO: Epoch  690: train loss = 0.27463 ± 0.02282
+2026-03-22 04:41:32,860 INFO: Epoch  700: train loss = 0.27823 ± 0.01486
+2026-03-22 04:41:56,317 INFO: Evaluation: target = short, train loss = 0.35078, train acc = 0.88710; val loss = 0.50615, val acc = 0.84918
+2026-03-22 04:41:56,318 INFO: Evaluation: target = host, train loss = 0.05220, train acc = 0.97519; val loss = 0.32791, val acc = 0.92701
+2026-03-22 04:43:22,505 INFO: Epoch  710: train loss = 0.27252 ± 0.02235
+2026-03-22 04:44:48,771 INFO: Epoch  720: train loss = 0.26728 ± 0.02358
+2026-03-22 04:46:14,934 INFO: Epoch  730: train loss = 0.26982 ± 0.01764
+2026-03-22 04:47:41,029 INFO: Epoch  740: train loss = 0.27360 ± 0.01103
+2026-03-22 04:49:06,922 INFO: Epoch  750: train loss = 0.27173 ± 0.01539
+2026-03-22 04:50:32,898 INFO: Epoch  760: train loss = 0.27627 ± 0.01929
+2026-03-22 04:51:58,748 INFO: Epoch  770: train loss = 0.27029 ± 0.02197
+2026-03-22 04:53:24,707 INFO: Epoch  780: train loss = 0.26935 ± 0.01556
+2026-03-22 04:54:50,597 INFO: Epoch  790: train loss = 0.26948 ± 0.01682
+2026-03-22 04:56:16,597 INFO: Epoch  800: train loss = 0.26585 ± 0.01913
+2026-03-22 04:56:40,119 INFO: Evaluation: target = short, train loss = 0.35688, train acc = 0.88848; val loss = 0.46664, val acc = 0.84967
+2026-03-22 04:56:40,119 INFO: Evaluation: target = host, train loss = 0.05055, train acc = 0.97515; val loss = 0.42057, val acc = 0.88696
+2026-03-22 04:58:06,141 INFO: Epoch  810: train loss = 0.26693 ± 0.01376
+2026-03-22 04:59:31,874 INFO: Epoch  820: train loss = 0.26413 ± 0.01837
+2026-03-22 05:00:57,969 INFO: Epoch  830: train loss = 0.26417 ± 0.01511
+2026-03-22 05:02:23,868 INFO: Epoch  840: train loss = 0.26910 ± 0.02127
+2026-03-22 05:03:49,907 INFO: Epoch  850: train loss = 0.26434 ± 0.01781
+2026-03-22 05:05:15,908 INFO: Epoch  860: train loss = 0.26713 ± 0.01376
+2026-03-22 05:06:41,738 INFO: Epoch  870: train loss = 0.26750 ± 0.01965
+2026-03-22 05:08:07,659 INFO: Epoch  880: train loss = 0.26650 ± 0.01990
+2026-03-22 05:09:33,490 INFO: Epoch  890: train loss = 0.26415 ± 0.01692
+2026-03-22 05:10:59,278 INFO: Epoch  900: train loss = 0.26305 ± 0.01422
+2026-03-22 05:10:59,278 INFO: Beginning of save interval.
+2026-03-22 05:11:22,842 INFO: Evaluation: target = short, train loss = 0.33190, train acc = 0.88930; val loss = 0.41212, val acc = 0.86644
+2026-03-22 05:11:22,842 INFO: Evaluation: target = host, train loss = 0.04606, train acc = 0.97802; val loss = 0.39539, val acc = 0.89595
+2026-03-22 05:11:22,842 INFO: Creating checkpoint...
+2026-03-22 05:12:49,965 INFO: Epoch  910: train loss = 0.26625 ± 0.01698
+2026-03-22 05:13:13,605 INFO: Evaluation: target = short, train loss = 0.34011, train acc = 0.88808; val loss = 0.50895, val acc = 0.84958
+2026-03-22 05:13:13,606 INFO: Evaluation: target = host, train loss = 0.04695, train acc = 0.97756; val loss = 0.38860, val acc = 0.88845
+2026-03-22 05:14:39,735 INFO: Epoch  920: train loss = 0.30783 ± 0.02773
+2026-03-22 05:15:03,344 INFO: Evaluation: target = short, train loss = 0.40663, train acc = 0.88267; val loss = 0.49858, val acc = 0.86312
+2026-03-22 05:15:03,344 INFO: Evaluation: target = host, train loss = 0.06099, train acc = 0.97331; val loss = 0.53617, val acc = 0.85628
+2026-03-22 05:16:29,302 INFO: Epoch  930: train loss = 0.27536 ± 0.01635
+2026-03-22 05:16:52,826 INFO: Evaluation: target = short, train loss = 0.34217, train acc = 0.88720; val loss = 0.51464, val acc = 0.84534
+2026-03-22 05:16:52,827 INFO: Evaluation: target = host, train loss = 0.05024, train acc = 0.97639; val loss = 0.41270, val acc = 0.88369
+2026-03-22 05:18:19,004 INFO: Epoch  940: train loss = 0.26853 ± 0.01946
+2026-03-22 05:18:42,730 INFO: Evaluation: target = short, train loss = 0.34385, train acc = 0.88825; val loss = 0.48384, val acc = 0.84813
+2026-03-22 05:18:42,731 INFO: Evaluation: target = host, train loss = 0.04872, train acc = 0.97699; val loss = 0.41332, val acc = 0.88282
+2026-03-22 05:20:08,873 INFO: Epoch  950: train loss = 0.27396 ± 0.01754
+2026-03-22 05:20:32,531 INFO: Evaluation: target = short, train loss = 0.32249, train acc = 0.88565; val loss = 0.48645, val acc = 0.84278
+2026-03-22 05:20:32,531 INFO: Evaluation: target = host, train loss = 0.05018, train acc = 0.97630; val loss = 0.39093, val acc = 0.88309
+2026-03-22 05:21:58,611 INFO: Epoch  960: train loss = 0.26948 ± 0.01838
+2026-03-22 05:22:22,150 INFO: Evaluation: target = short, train loss = 0.36267, train acc = 0.88835; val loss = 0.47131, val acc = 0.85076
+2026-03-22 05:22:22,150 INFO: Evaluation: target = host, train loss = 0.04841, train acc = 0.97696; val loss = 0.43592, val acc = 0.87967
+2026-03-22 05:23:48,217 INFO: Epoch  970: train loss = 0.26688 ± 0.01791
+2026-03-22 05:24:11,733 INFO: Evaluation: target = short, train loss = 0.33968, train acc = 0.88720; val loss = 0.44834, val acc = 0.84862
+2026-03-22 05:24:11,733 INFO: Evaluation: target = host, train loss = 0.04742, train acc = 0.97739; val loss = 0.42136, val acc = 0.87601
+2026-03-22 05:25:37,644 INFO: Epoch  980: train loss = 0.26552 ± 0.01778
+2026-03-22 05:26:01,119 INFO: Evaluation: target = short, train loss = 0.32938, train acc = 0.88797; val loss = 0.43274, val acc = 0.84741
+2026-03-22 05:26:01,120 INFO: Evaluation: target = host, train loss = 0.04830, train acc = 0.97686; val loss = 0.49645, val acc = 0.87970
+2026-03-22 05:27:27,471 INFO: Epoch  990: train loss = 0.27151 ± 0.01485
+2026-03-22 05:27:50,997 INFO: Evaluation: target = short, train loss = 0.34591, train acc = 0.88840; val loss = 0.38826, val acc = 0.88717
+2026-03-22 05:27:50,997 INFO: Evaluation: target = host, train loss = 0.04791, train acc = 0.97752; val loss = 0.50748, val acc = 0.87089
+2026-03-22 05:29:17,008 INFO: Epoch 1000: train loss = 0.26776 ± 0.02052
+2026-03-22 05:29:40,527 INFO: Evaluation: target = short, train loss = 0.33813, train acc = 0.88785; val loss = 0.41783, val acc = 0.85600
+2026-03-22 05:29:40,528 INFO: Evaluation: target = host, train loss = 0.04696, train acc = 0.97773; val loss = 0.48696, val acc = 0.88182
+2026-03-22 05:29:40,528 INFO: End of save interval.
+2026-03-22 05:31:06,259 INFO: Epoch 1010: train loss = 0.26590 ± 0.01967
+2026-03-22 05:32:31,661 INFO: Epoch 1020: train loss = 0.26616 ± 0.01428
+2026-03-22 05:33:56,943 INFO: Epoch 1030: train loss = 0.26359 ± 0.01629
+2026-03-22 05:35:22,256 INFO: Epoch 1040: train loss = 0.27133 ± 0.01857
+2026-03-22 05:36:47,352 INFO: Epoch 1050: train loss = 0.25968 ± 0.01314
+2026-03-22 05:38:12,545 INFO: Epoch 1060: train loss = 0.26174 ± 0.01260
+2026-03-22 05:39:37,922 INFO: Epoch 1070: train loss = 0.25943 ± 0.01751
+2026-03-22 05:41:02,582 INFO: Epoch 1080: train loss = 0.26944 ± 0.01675
+2026-03-22 05:42:27,252 INFO: Epoch 1090: train loss = 0.25825 ± 0.01542
+2026-03-22 05:43:51,245 INFO: Epoch 1100: train loss = 0.25951 ± 0.01469
+2026-03-22 05:44:13,727 INFO: Evaluation: target = short, train loss = 0.34314, train acc = 0.88924; val loss = 0.44588, val acc = 0.86796
+2026-03-22 05:44:13,728 INFO: Evaluation: target = host, train loss = 0.04799, train acc = 0.97827; val loss = 0.50209, val acc = 0.88136
+2026-03-22 05:45:37,646 INFO: Epoch 1110: train loss = 0.25796 ± 0.01894
+2026-03-22 05:47:01,353 INFO: Epoch 1120: train loss = 0.26108 ± 0.01426
+2026-03-22 05:48:25,139 INFO: Epoch 1130: train loss = 0.25611 ± 0.01719
+2026-03-22 05:49:48,865 INFO: Epoch 1140: train loss = 0.25974 ± 0.01596
+2026-03-22 05:51:12,531 INFO: Epoch 1150: train loss = 0.25940 ± 0.01083
+2026-03-22 05:52:36,055 INFO: Epoch 1160: train loss = 0.26620 ± 0.02126
+2026-03-22 05:53:59,592 INFO: Epoch 1170: train loss = 0.25662 ± 0.01639
+2026-03-22 05:55:23,186 INFO: Epoch 1180: train loss = 0.25847 ± 0.01864
+2026-03-22 05:56:46,650 INFO: Epoch 1190: train loss = 0.25641 ± 0.01840
+2026-03-22 05:58:10,414 INFO: Epoch 1200: train loss = 0.25921 ± 0.01591
+2026-03-22 05:58:32,600 INFO: Evaluation: target = short, train loss = 0.31073, train acc = 0.88958; val loss = 0.38278, val acc = 0.87070
+2026-03-22 05:58:32,601 INFO: Evaluation: target = host, train loss = 0.04493, train acc = 0.97844; val loss = 0.56368, val acc = 0.85884
+2026-03-22 05:59:56,101 INFO: Epoch 1210: train loss = 0.25406 ± 0.01577
+2026-03-22 06:01:19,560 INFO: Epoch 1220: train loss = 0.25673 ± 0.01108
+2026-03-22 06:02:42,908 INFO: Epoch 1230: train loss = 0.25980 ± 0.01742
+2026-03-22 06:04:06,232 INFO: Epoch 1240: train loss = 0.25720 ± 0.01538
+2026-03-22 06:05:29,719 INFO: Epoch 1250: train loss = 0.25339 ± 0.01302
+2026-03-22 06:06:52,989 INFO: Epoch 1260: train loss = 0.25405 ± 0.01321
+2026-03-22 06:08:16,315 INFO: Epoch 1270: train loss = 0.25972 ± 0.01586
+2026-03-22 06:09:39,582 INFO: Epoch 1280: train loss = 0.25658 ± 0.01930
+2026-03-22 06:11:02,847 INFO: Epoch 1290: train loss = 0.25530 ± 0.01142
+2026-03-22 06:12:26,075 INFO: Epoch 1300: train loss = 0.25546 ± 0.01524
+2026-03-22 06:12:48,231 INFO: Evaluation: target = short, train loss = 0.34062, train acc = 0.89094; val loss = 0.43985, val acc = 0.85257
+2026-03-22 06:12:48,231 INFO: Evaluation: target = host, train loss = 0.04381, train acc = 0.97869; val loss = 0.50911, val acc = 0.87246
+2026-03-22 06:14:11,437 INFO: Epoch 1310: train loss = 0.25640 ± 0.01188
+2026-03-22 06:15:34,723 INFO: Epoch 1320: train loss = 0.25601 ± 0.01724
+2026-03-22 06:16:57,949 INFO: Epoch 1330: train loss = 0.25808 ± 0.01599
+2026-03-22 06:18:21,034 INFO: Epoch 1340: train loss = 0.25396 ± 0.01929
+2026-03-22 06:19:44,116 INFO: Epoch 1350: train loss = 0.25333 ± 0.01636
+2026-03-22 06:21:07,241 INFO: Epoch 1360: train loss = 0.25394 ± 0.01280
+2026-03-22 06:22:30,544 INFO: Epoch 1370: train loss = 0.25380 ± 0.01580
+2026-03-22 06:23:53,986 INFO: Epoch 1380: train loss = 0.25270 ± 0.01711
+2026-03-22 06:25:17,329 INFO: Epoch 1390: train loss = 0.25304 ± 0.01464
+2026-03-22 06:26:38,850 INFO: Epoch 1400: train loss = 0.25598 ± 0.01538
+2026-03-22 06:27:00,765 INFO: Evaluation: target = short, train loss = 0.33654, train acc = 0.89062; val loss = 0.47163, val acc = 0.84908
+2026-03-22 06:27:00,765 INFO: Evaluation: target = host, train loss = 0.04289, train acc = 0.97943; val loss = 0.43564, val acc = 0.88401
+2026-03-22 06:28:20,089 INFO: Epoch 1410: train loss = 0.25312 ± 0.01576
+2026-03-22 06:29:38,887 INFO: Epoch 1420: train loss = 0.25598 ± 0.01267
+2026-03-22 06:30:58,110 INFO: Epoch 1430: train loss = 0.25290 ± 0.01434
+2026-03-22 06:32:17,178 INFO: Epoch 1440: train loss = 0.25511 ± 0.01821
+2026-03-22 06:33:40,793 INFO: Epoch 1450: train loss = 0.53128 ± 0.45443
+2026-03-22 06:35:04,059 INFO: Epoch 1460: train loss = 0.31615 ± 0.02506
+2026-03-22 06:36:27,274 INFO: Epoch 1470: train loss = 0.28820 ± 0.01400
+2026-03-22 06:37:50,546 INFO: Epoch 1480: train loss = 0.28279 ± 0.02186
+2026-03-22 06:39:13,912 INFO: Epoch 1490: train loss = 0.27828 ± 0.01980
+2026-03-22 06:40:37,064 INFO: Epoch 1500: train loss = 0.27616 ± 0.01705
+2026-03-22 06:40:59,189 INFO: Evaluation: target = short, train loss = 0.34622, train acc = 0.88677; val loss = 0.44173, val acc = 0.87400
+2026-03-22 06:40:59,189 INFO: Evaluation: target = host, train loss = 0.05029, train acc = 0.97592; val loss = 0.43983, val acc = 0.88434
+2026-03-22 06:42:22,544 INFO: Epoch 1510: train loss = 0.26869 ± 0.02057
+2026-03-22 06:43:45,635 INFO: Epoch 1520: train loss = 0.27482 ± 0.01261
+2026-03-22 06:45:08,770 INFO: Epoch 1530: train loss = 0.26981 ± 0.02157
+2026-03-22 06:46:31,727 INFO: Epoch 1540: train loss = 0.26333 ± 0.01459
+2026-03-22 06:47:54,861 INFO: Epoch 1550: train loss = 0.26136 ± 0.01692
+2026-03-22 06:49:18,291 INFO: Epoch 1560: train loss = 0.26443 ± 0.01303
+2026-03-22 06:50:42,299 INFO: Epoch 1570: train loss = 0.26182 ± 0.01839
+2026-03-22 06:52:05,523 INFO: Epoch 1580: train loss = 0.26263 ± 0.01429
+2026-03-22 06:53:28,373 INFO: Epoch 1590: train loss = 0.26263 ± 0.01202
+2026-03-22 06:54:51,669 INFO: Epoch 1600: train loss = 0.25993 ± 0.01920
+2026-03-22 06:55:13,929 INFO: Evaluation: target = short, train loss = 0.36256, train acc = 0.88922; val loss = 0.42677, val acc = 0.88433
+2026-03-22 06:55:13,929 INFO: Evaluation: target = host, train loss = 0.04517, train acc = 0.97822; val loss = 0.45441, val acc = 0.86611
+2026-03-22 06:56:37,595 INFO: Epoch 1610: train loss = 0.26118 ± 0.01602
+2026-03-22 06:58:01,516 INFO: Epoch 1620: train loss = 0.25773 ± 0.01235
+2026-03-22 06:59:25,070 INFO: Epoch 1630: train loss = 0.26145 ± 0.01397
+2026-03-22 07:00:49,040 INFO: Epoch 1640: train loss = 0.25792 ± 0.01515
+2026-03-22 07:02:12,668 INFO: Epoch 1650: train loss = 0.26051 ± 0.01446
+2026-03-22 07:03:36,359 INFO: Epoch 1660: train loss = 0.26098 ± 0.01740
+2026-03-22 07:05:00,019 INFO: Epoch 1670: train loss = 0.25909 ± 0.01636
+2026-03-22 07:06:23,744 INFO: Epoch 1680: train loss = 0.25659 ± 0.01799
+2026-03-22 07:07:47,471 INFO: Epoch 1690: train loss = 0.25815 ± 0.01473
+2026-03-22 07:09:11,161 INFO: Epoch 1700: train loss = 0.25691 ± 0.01301
+2026-03-22 07:09:33,481 INFO: Evaluation: target = short, train loss = 0.35501, train acc = 0.89043; val loss = 0.54204, val acc = 0.84831
+2026-03-22 07:09:33,482 INFO: Evaluation: target = host, train loss = 0.04483, train acc = 0.97829; val loss = 0.36384, val acc = 0.88555
+2026-03-22 07:10:57,383 INFO: Epoch 1710: train loss = 0.25622 ± 0.01775
+2026-03-22 07:12:20,971 INFO: Epoch 1720: train loss = 0.25620 ± 0.01741
+2026-03-22 07:13:44,535 INFO: Epoch 1730: train loss = 0.25406 ± 0.01483
+2026-03-22 07:15:08,336 INFO: Epoch 1740: train loss = 0.25403 ± 0.01231
+2026-03-22 07:16:32,004 INFO: Epoch 1750: train loss = 0.25422 ± 0.01927
+2026-03-22 07:17:55,623 INFO: Epoch 1760: train loss = 0.25507 ± 0.01390
+2026-03-22 07:19:19,350 INFO: Epoch 1770: train loss = 0.25321 ± 0.01594
+2026-03-22 07:20:43,151 INFO: Epoch 1780: train loss = 0.25218 ± 0.01309
+2026-03-22 07:22:06,822 INFO: Epoch 1790: train loss = 0.25755 ± 0.01652
+2026-03-22 07:23:30,487 INFO: Epoch 1800: train loss = 0.25793 ± 0.01426
+2026-03-22 07:23:52,840 INFO: Evaluation: target = short, train loss = 0.32519, train acc = 0.89067; val loss = 0.42746, val acc = 0.84919
+2026-03-22 07:23:52,840 INFO: Evaluation: target = host, train loss = 0.04366, train acc = 0.97866; val loss = 0.42270, val acc = 0.88480
+2026-03-22 07:25:16,442 INFO: Epoch 1810: train loss = 0.25969 ± 0.01684
+2026-03-22 07:26:40,054 INFO: Epoch 1820: train loss = 0.25580 ± 0.01369
+2026-03-22 07:28:03,534 INFO: Epoch 1830: train loss = 0.25309 ± 0.01851
+2026-03-22 07:29:27,028 INFO: Epoch 1840: train loss = 0.25488 ± 0.01472
+2026-03-22 07:30:50,637 INFO: Epoch 1850: train loss = 0.25227 ± 0.01462
+2026-03-22 07:32:14,303 INFO: Epoch 1860: train loss = 0.25323 ± 0.01142
+2026-03-22 07:33:38,096 INFO: Epoch 1870: train loss = 0.25214 ± 0.01336
+2026-03-22 07:35:01,757 INFO: Epoch 1880: train loss = 0.25209 ± 0.01269
+2026-03-22 07:36:25,318 INFO: Epoch 1890: train loss = 0.25313 ± 0.01245
+2026-03-22 07:37:48,750 INFO: Epoch 1900: train loss = 0.25438 ± 0.01306
+2026-03-22 07:37:48,750 INFO: Beginning of save interval.
+2026-03-22 07:38:11,000 INFO: Evaluation: target = short, train loss = 0.32082, train acc = 0.89170; val loss = 0.50310, val acc = 0.84876
+2026-03-22 07:38:11,000 INFO: Evaluation: target = host, train loss = 0.04302, train acc = 0.97875; val loss = 0.33156, val acc = 0.89019
+2026-03-22 07:38:11,001 INFO: Creating checkpoint...
+2026-03-22 07:39:35,305 INFO: Epoch 1910: train loss = 0.25004 ± 0.01218
+2026-03-22 07:39:57,605 INFO: Evaluation: target = short, train loss = 0.32541, train acc = 0.89043; val loss = 0.38066, val acc = 0.88015
+2026-03-22 07:39:57,606 INFO: Evaluation: target = host, train loss = 0.04308, train acc = 0.97896; val loss = 0.47079, val acc = 0.86665
+2026-03-22 07:41:21,027 INFO: Epoch 1920: train loss = 0.25333 ± 0.01817
+2026-03-22 07:41:43,344 INFO: Evaluation: target = short, train loss = 0.33500, train acc = 0.89191; val loss = 0.46289, val acc = 0.84933
+2026-03-22 07:41:43,344 INFO: Evaluation: target = host, train loss = 0.04259, train acc = 0.97930; val loss = 0.36421, val acc = 0.88670
+2026-03-22 07:41:43,345 INFO: Creating checkpoint...
+2026-03-22 07:43:07,516 INFO: Epoch 1930: train loss = 0.25337 ± 0.01884
+2026-03-22 07:43:29,624 INFO: Evaluation: target = short, train loss = 0.31385, train acc = 0.89133; val loss = 0.47420, val acc = 0.84890
+2026-03-22 07:43:29,625 INFO: Evaluation: target = host, train loss = 0.04279, train acc = 0.97906; val loss = 0.44503, val acc = 0.88325
+2026-03-22 07:44:53,323 INFO: Epoch 1940: train loss = 0.24866 ± 0.01603
+2026-03-22 07:45:15,603 INFO: Evaluation: target = short, train loss = 0.34292, train acc = 0.89150; val loss = 0.50203, val acc = 0.84853
+2026-03-22 07:45:15,604 INFO: Evaluation: target = host, train loss = 0.04307, train acc = 0.97919; val loss = 0.40227, val acc = 0.88261
+2026-03-22 07:46:39,157 INFO: Epoch 1950: train loss = 0.25183 ± 0.01907
+2026-03-22 07:47:01,339 INFO: Evaluation: target = short, train loss = 0.32246, train acc = 0.89006; val loss = 0.42912, val acc = 0.85291
+2026-03-22 07:47:01,339 INFO: Evaluation: target = host, train loss = 0.04236, train acc = 0.97922; val loss = 0.41366, val acc = 0.88264
+2026-03-22 07:48:24,723 INFO: Epoch 1960: train loss = 0.24906 ± 0.01379
+2026-03-22 07:48:46,949 INFO: Evaluation: target = short, train loss = 0.32379, train acc = 0.89212; val loss = 0.44132, val acc = 0.85030
+2026-03-22 07:48:46,949 INFO: Evaluation: target = host, train loss = 0.04233, train acc = 0.97931; val loss = 0.36704, val acc = 0.88359
+2026-03-22 07:48:46,949 INFO: Creating checkpoint...
+2026-03-22 07:50:11,075 INFO: Epoch 1970: train loss = 0.25137 ± 0.01366
+2026-03-22 07:50:33,263 INFO: Evaluation: target = short, train loss = 0.32353, train acc = 0.89132; val loss = 0.42397, val acc = 0.85568
+2026-03-22 07:50:33,263 INFO: Evaluation: target = host, train loss = 0.04222, train acc = 0.97943; val loss = 0.46552, val acc = 0.88234
+2026-03-22 07:51:56,598 INFO: Epoch 1980: train loss = 0.25054 ± 0.01960
+2026-03-22 07:52:18,828 INFO: Evaluation: target = short, train loss = 0.32875, train acc = 0.89215; val loss = 0.42807, val acc = 0.88149
+2026-03-22 07:52:18,828 INFO: Evaluation: target = host, train loss = 0.04235, train acc = 0.97911; val loss = 0.41857, val acc = 0.88275
+2026-03-22 07:53:42,373 INFO: Epoch 1990: train loss = 0.25076 ± 0.01529
+2026-03-22 07:54:04,703 INFO: Evaluation: target = short, train loss = 0.32456, train acc = 0.89248; val loss = 0.40096, val acc = 0.88412
+2026-03-22 07:54:04,704 INFO: Evaluation: target = host, train loss = 0.04241, train acc = 0.97927; val loss = 0.51713, val acc = 0.88092
+2026-03-22 07:55:28,227 INFO: Epoch 2000: train loss = 0.24977 ± 0.01885
+2026-03-22 07:55:50,473 INFO: Evaluation: target = short, train loss = 0.33482, train acc = 0.89160; val loss = 0.40921, val acc = 0.87932
+2026-03-22 07:55:50,474 INFO: Evaluation: target = host, train loss = 0.04237, train acc = 0.97918; val loss = 0.41479, val acc = 0.88678
+2026-03-22 07:55:50,474 INFO: End of save interval.
+2026-03-22 07:57:14,040 INFO: Epoch 2010: train loss = 0.24976 ± 0.01627
+2026-03-22 07:58:37,402 INFO: Epoch 2020: train loss = 0.25093 ± 0.01091
+2026-03-22 08:00:01,074 INFO: Epoch 2030: train loss = 0.24947 ± 0.01157
+2026-03-22 08:01:24,597 INFO: Epoch 2040: train loss = 0.24961 ± 0.01757
+2026-03-22 08:02:48,001 INFO: Epoch 2050: train loss = 0.25188 ± 0.01926
+2026-03-22 08:04:11,575 INFO: Epoch 2060: train loss = 0.25073 ± 0.01212
+2026-03-22 08:05:34,915 INFO: Epoch 2070: train loss = 0.25257 ± 0.01328
+2026-03-22 08:06:58,220 INFO: Epoch 2080: train loss = 0.25021 ± 0.01390
+2026-03-22 08:08:21,624 INFO: Epoch 2090: train loss = 0.24671 ± 0.01938
+2026-03-22 08:09:44,981 INFO: Epoch 2100: train loss = 0.24818 ± 0.01316
+2026-03-22 08:10:07,225 INFO: Evaluation: target = short, train loss = 0.33321, train acc = 0.89155; val loss = 0.40369, val acc = 0.88526
+2026-03-22 08:10:07,226 INFO: Evaluation: target = host, train loss = 0.04154, train acc = 0.97947; val loss = 0.43826, val acc = 0.88343
+2026-03-22 08:11:30,535 INFO: Epoch 2110: train loss = 0.24979 ± 0.01561
+2026-03-22 08:12:53,883 INFO: Epoch 2120: train loss = 0.25309 ± 0.01396
+2026-03-22 08:14:17,348 INFO: Epoch 2130: train loss = 0.24782 ± 0.01487
+2026-03-22 08:15:40,579 INFO: Epoch 2140: train loss = 0.24935 ± 0.01374
+2026-03-22 08:17:03,759 INFO: Epoch 2150: train loss = 0.24778 ± 0.01637
+2026-03-22 08:18:27,087 INFO: Epoch 2160: train loss = 0.25141 ± 0.01512
+2026-03-22 08:19:50,474 INFO: Epoch 2170: train loss = 0.24640 ± 0.01424
+2026-03-22 08:21:13,688 INFO: Epoch 2180: train loss = 0.24904 ± 0.01116
+2026-03-22 08:22:36,705 INFO: Epoch 2190: train loss = 0.24918 ± 0.02182
+2026-03-22 08:23:59,770 INFO: Epoch 2200: train loss = 0.24769 ± 0.01522
+2026-03-22 08:24:21,870 INFO: Evaluation: target = short, train loss = 0.32509, train acc = 0.89079; val loss = 0.40164, val acc = 0.87552
+2026-03-22 08:24:21,870 INFO: Evaluation: target = host, train loss = 0.04251, train acc = 0.97922; val loss = 0.51308, val acc = 0.86786
+2026-03-22 08:25:45,071 INFO: Epoch 2210: train loss = 0.24476 ± 0.01852
+2026-03-22 08:27:08,239 INFO: Epoch 2220: train loss = 0.24880 ± 0.01418
+2026-03-22 08:28:31,526 INFO: Epoch 2230: train loss = 0.24916 ± 0.01826
+2026-03-22 08:29:54,631 INFO: Epoch 2240: train loss = 0.24877 ± 0.01407
+2026-03-22 08:31:17,979 INFO: Epoch 2250: train loss = 0.24813 ± 0.01358
+2026-03-22 08:32:41,151 INFO: Epoch 2260: train loss = 0.24689 ± 0.01243
+2026-03-22 08:34:04,730 INFO: Epoch 2270: train loss = 0.24910 ± 0.01269
+2026-03-22 08:35:27,785 INFO: Epoch 2280: train loss = 0.24706 ± 0.01497
+2026-03-22 08:36:50,728 INFO: Epoch 2290: train loss = 0.24576 ± 0.01425
+2026-03-22 08:38:13,717 INFO: Epoch 2300: train loss = 0.24552 ± 0.01297
+2026-03-22 08:38:35,909 INFO: Evaluation: target = short, train loss = 0.32274, train acc = 0.89299; val loss = 0.39492, val acc = 0.88342
+2026-03-22 08:38:35,909 INFO: Evaluation: target = host, train loss = 0.04141, train acc = 0.97943; val loss = 0.39255, val acc = 0.88392
+2026-03-22 08:39:59,163 INFO: Epoch 2310: train loss = 0.24933 ± 0.01424
+2026-03-22 08:41:22,234 INFO: Epoch 2320: train loss = 0.24490 ± 0.01653
+2026-03-22 08:42:45,556 INFO: Epoch 2330: train loss = 0.24845 ± 0.01572
+2026-03-22 08:44:09,989 INFO: Epoch 2340: train loss = 0.24857 ± 0.01410
+2026-03-22 08:45:34,819 INFO: Epoch 2350: train loss = 0.24553 ± 0.01725
+2026-03-22 08:46:59,816 INFO: Epoch 2360: train loss = 0.24791 ± 0.01299
+2026-03-22 08:48:24,048 INFO: Epoch 2370: train loss = 0.24740 ± 0.01455
+2026-03-22 08:52:36,544 INFO: Epoch 2400: train loss = 0.24384 ± 0.01595
+2026-03-22 08:52:59,089 INFO: Evaluation: target = short, train loss = 0.32114, train acc = 0.89261; val loss = 0.38062, val acc = 0.88518
+2026-03-22 08:52:59,089 INFO: Evaluation: target = host, train loss = 0.03945, train acc = 0.98034; val loss = 0.44566, val acc = 0.88446
+2026-03-22 08:54:23,338 INFO: Epoch 2410: train loss = 0.24794 ± 0.01561
+2026-03-22 08:55:47,554 INFO: Epoch 2420: train loss = 0.24799 ± 0.01284
+2026-03-22 08:57:12,103 INFO: Epoch 2430: train loss = 0.24486 ± 0.01008
+2026-03-22 08:58:36,520 INFO: Epoch 2440: train loss = 0.24510 ± 0.01432
+2026-03-22 09:00:00,671 INFO: Epoch 2450: train loss = 0.24586 ± 0.01475
+2026-03-22 09:01:25,039 INFO: Epoch 2460: train loss = 0.24741 ± 0.01306
+2026-03-22 09:02:49,815 INFO: Epoch 2470: train loss = 0.24424 ± 0.01640
+2026-03-22 09:04:14,561 INFO: Epoch 2480: train loss = 0.24647 ± 0.01383
+2026-03-22 09:05:38,997 INFO: Epoch 2490: train loss = 0.24822 ± 0.01459
+2026-03-22 09:07:03,526 INFO: Epoch 2500: train loss = 0.24535 ± 0.01784
+2026-03-22 09:07:26,205 INFO: Evaluation: target = short, train loss = 0.32088, train acc = 0.89261; val loss = 0.41782, val acc = 0.86842
+2026-03-22 09:07:26,206 INFO: Evaluation: target = host, train loss = 0.03986, train acc = 0.98015; val loss = 0.40419, val acc = 0.88923
+2026-03-22 09:08:50,150 INFO: Epoch 2510: train loss = 0.24496 ± 0.01391
+2026-03-22 09:10:14,754 INFO: Epoch 2520: train loss = 0.24420 ± 0.01645
+2026-03-22 09:11:39,213 INFO: Epoch 2530: train loss = 0.24571 ± 0.01454
+2026-03-22 09:13:03,384 INFO: Epoch 2540: train loss = 0.24530 ± 0.01583
+2026-03-22 09:14:27,837 INFO: Epoch 2550: train loss = 0.24570 ± 0.01012
+2026-03-22 09:15:52,384 INFO: Epoch 2560: train loss = 0.24672 ± 0.01395
+2026-03-22 09:17:16,301 INFO: Epoch 2570: train loss = 0.24657 ± 0.01800
+2026-03-22 09:18:40,100 INFO: Epoch 2580: train loss = 0.24507 ± 0.01706
+2026-03-22 09:20:03,746 INFO: Epoch 2590: train loss = 0.24295 ± 0.01848
+2026-03-22 09:21:27,426 INFO: Epoch 2600: train loss = 0.24378 ± 0.01322
+2026-03-22 09:21:49,771 INFO: Evaluation: target = short, train loss = 0.32210, train acc = 0.89238; val loss = 0.39151, val acc = 0.88564
+2026-03-22 09:21:49,772 INFO: Evaluation: target = host, train loss = 0.04059, train acc = 0.97990; val loss = 0.44320, val acc = 0.88160
+2026-03-22 09:23:13,512 INFO: Epoch 2610: train loss = 0.24328 ± 0.01463
+2026-03-22 09:24:36,813 INFO: Epoch 2620: train loss = 0.24572 ± 0.01500
+2026-03-22 09:26:00,180 INFO: Epoch 2630: train loss = 0.24347 ± 0.01336
+2026-03-22 09:27:23,284 INFO: Epoch 2640: train loss = 0.24402 ± 0.01274
+2026-03-22 09:28:46,589 INFO: Epoch 2650: train loss = 0.24383 ± 0.01517
+2026-03-22 09:30:10,034 INFO: Epoch 2660: train loss = 0.24310 ± 0.01670
+2026-03-22 09:31:33,554 INFO: Epoch 2670: train loss = 0.24380 ± 0.01363
+2026-03-22 09:32:57,391 INFO: Epoch 2680: train loss = 0.24479 ± 0.01921
+2026-03-22 09:34:20,551 INFO: Epoch 2690: train loss = 0.24392 ± 0.01685
+2026-03-22 09:35:43,796 INFO: Epoch 2700: train loss = 0.24501 ± 0.01480
+2026-03-22 09:36:05,970 INFO: Evaluation: target = short, train loss = 0.32497, train acc = 0.89246; val loss = 0.39255, val acc = 0.88420
+2026-03-22 09:36:05,971 INFO: Evaluation: target = host, train loss = 0.03914, train acc = 0.98037; val loss = 0.39117, val acc = 0.89679
+2026-03-22 09:37:29,545 INFO: Epoch 2710: train loss = 0.24007 ± 0.01286
+2026-03-22 09:38:52,886 INFO: Epoch 2720: train loss = 0.24566 ± 0.01420
+2026-03-22 09:40:16,343 INFO: Epoch 2730: train loss = 0.24225 ± 0.01503
+2026-03-22 09:41:39,552 INFO: Epoch 2740: train loss = 0.24143 ± 0.01270
+2026-03-22 09:43:02,781 INFO: Epoch 2750: train loss = 0.24301 ± 0.01461
+2026-03-22 09:44:25,827 INFO: Epoch 2760: train loss = 0.24312 ± 0.01319
+2026-03-22 09:45:49,104 INFO: Epoch 2770: train loss = 0.24446 ± 0.01497
+2026-03-22 09:47:12,042 INFO: Epoch 2780: train loss = 0.24283 ± 0.01591
+2026-03-22 09:48:35,388 INFO: Epoch 2790: train loss = 0.24374 ± 0.01497
+2026-03-22 09:49:59,233 INFO: Epoch 2800: train loss = 0.24397 ± 0.01762
+2026-03-22 09:50:21,426 INFO: Evaluation: target = short, train loss = 0.31682, train acc = 0.89329; val loss = 0.38694, val acc = 0.88262
+2026-03-22 09:50:21,427 INFO: Evaluation: target = host, train loss = 0.03930, train acc = 0.98061; val loss = 0.44376, val acc = 0.88291
+2026-03-22 09:51:44,703 INFO: Epoch 2810: train loss = 0.24260 ± 0.01572
+2026-03-22 09:53:07,983 INFO: Epoch 2820: train loss = 0.24261 ± 0.01309
+2026-03-22 09:54:30,829 INFO: Epoch 2830: train loss = 0.24163 ± 0.01310
+2026-03-22 09:55:53,859 INFO: Epoch 2840: train loss = 0.23987 ± 0.01244
+2026-03-22 09:57:16,859 INFO: Epoch 2850: train loss = 0.24229 ± 0.01539
+2026-03-22 09:58:40,091 INFO: Epoch 2860: train loss = 0.24303 ± 0.01437
+2026-03-22 10:00:03,595 INFO: Epoch 2870: train loss = 0.24302 ± 0.01261
+2026-03-22 10:01:26,891 INFO: Epoch 2880: train loss = 0.24330 ± 0.01285
+2026-03-22 10:02:49,942 INFO: Epoch 2890: train loss = 0.24115 ± 0.01561
+2026-03-22 10:04:12,994 INFO: Epoch 2900: train loss = 0.24284 ± 0.01739
+2026-03-22 10:04:12,995 INFO: Beginning of save interval.
+2026-03-22 10:04:34,966 INFO: Evaluation: target = short, train loss = 0.31532, train acc = 0.89364; val loss = 0.37815, val acc = 0.88488
+2026-03-22 10:04:34,966 INFO: Evaluation: target = host, train loss = 0.03852, train acc = 0.98064; val loss = 0.42346, val acc = 0.89530
+2026-03-22 10:04:34,966 INFO: Creating checkpoint...
+2026-03-22 10:05:58,564 INFO: Epoch 2910: train loss = 0.24161 ± 0.01130
+2026-03-22 10:06:20,787 INFO: Evaluation: target = short, train loss = 0.32069, train acc = 0.89335; val loss = 0.37618, val acc = 0.88667
+2026-03-22 10:06:20,788 INFO: Evaluation: target = host, train loss = 0.03807, train acc = 0.98079; val loss = 0.42660, val acc = 0.89527
+2026-03-22 10:07:43,872 INFO: Epoch 2920: train loss = 0.24293 ± 0.01502
+2026-03-22 10:08:05,999 INFO: Evaluation: target = short, train loss = 0.31897, train acc = 0.89322; val loss = 0.37050, val acc = 0.88776
+2026-03-22 10:08:05,999 INFO: Evaluation: target = host, train loss = 0.03886, train acc = 0.98026; val loss = 0.43474, val acc = 0.88858
+2026-03-22 10:09:29,155 INFO: Epoch 2930: train loss = 0.24234 ± 0.01739
+2026-03-22 10:09:51,111 INFO: Evaluation: target = short, train loss = 0.31929, train acc = 0.89342; val loss = 0.37798, val acc = 0.88570
+2026-03-22 10:09:51,111 INFO: Evaluation: target = host, train loss = 0.03898, train acc = 0.98031; val loss = 0.42033, val acc = 0.89245
+2026-03-22 10:09:51,111 INFO: Creating checkpoint...
+2026-03-22 10:11:15,145 INFO: Epoch 2940: train loss = 0.24111 ± 0.01555
+2026-03-22 10:11:37,321 INFO: Evaluation: target = short, train loss = 0.31829, train acc = 0.89321; val loss = 0.37936, val acc = 0.88589
+2026-03-22 10:11:37,321 INFO: Evaluation: target = host, train loss = 0.03849, train acc = 0.98059; val loss = 0.41986, val acc = 0.89538
+2026-03-22 10:13:00,580 INFO: Epoch 2950: train loss = 0.24208 ± 0.01383
+2026-03-22 10:13:22,770 INFO: Evaluation: target = short, train loss = 0.32061, train acc = 0.89391; val loss = 0.37840, val acc = 0.88780
+2026-03-22 10:13:22,771 INFO: Evaluation: target = host, train loss = 0.03850, train acc = 0.98071; val loss = 0.42781, val acc = 0.89028
+2026-03-22 10:14:45,688 INFO: Epoch 2960: train loss = 0.24187 ± 0.01688
+2026-03-22 10:15:07,709 INFO: Evaluation: target = short, train loss = 0.31965, train acc = 0.89360; val loss = 0.37611, val acc = 0.88705
+2026-03-22 10:15:07,709 INFO: Evaluation: target = host, train loss = 0.03861, train acc = 0.98047; val loss = 0.42738, val acc = 0.89348
+2026-03-22 10:16:30,769 INFO: Epoch 2970: train loss = 0.24371 ± 0.01470
+2026-03-22 10:16:52,820 INFO: Evaluation: target = short, train loss = 0.31967, train acc = 0.89368; val loss = 0.37739, val acc = 0.88721
+2026-03-22 10:16:52,821 INFO: Evaluation: target = host, train loss = 0.03821, train acc = 0.98065; val loss = 0.42904, val acc = 0.89129
+2026-03-22 10:18:16,004 INFO: Epoch 2980: train loss = 0.23906 ± 0.01667
+2026-03-22 10:18:38,027 INFO: Evaluation: target = short, train loss = 0.31904, train acc = 0.89360; val loss = 0.37609, val acc = 0.88668
+2026-03-22 10:18:38,028 INFO: Evaluation: target = host, train loss = 0.03865, train acc = 0.98066; val loss = 0.42745, val acc = 0.89224
+2026-03-22 10:20:01,320 INFO: Epoch 2990: train loss = 0.23930 ± 0.01295
+2026-03-22 10:20:23,752 INFO: Evaluation: target = short, train loss = 0.31812, train acc = 0.89364; val loss = 0.37020, val acc = 0.88872
+2026-03-22 10:20:23,753 INFO: Evaluation: target = host, train loss = 0.03853, train acc = 0.98065; val loss = 0.42884, val acc = 0.89170
+2026-03-22 10:21:47,870 INFO: Epoch 3000: train loss = 0.23980 ± 0.01551
+2026-03-22 10:22:10,157 INFO: Evaluation: target = short, train loss = 0.31832, train acc = 0.89373; val loss = 0.37354, val acc = 0.88758
+2026-03-22 10:22:10,157 INFO: Evaluation: target = host, train loss = 0.03875, train acc = 0.98058; val loss = 0.42660, val acc = 0.89156
+2026-03-22 10:22:10,157 INFO: End of save interval.
+2026-03-22 10:22:10,161 INFO: Done.

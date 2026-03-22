@@ -787,7 +787,13 @@ class MaskedLangModelEvalWrapper(TensorDictModule):
         self, batch: TensorDict[str, torch.Tensor]
     ) -> TensorDict[str, torch.Tensor]:
         mask_idx = torch.unbind(batch["mask_index"])
-        batch = super().forward(batch)
+        #--Modified--
+        src = {f: batch[f"{f}_mask"] for f in self.module["embedding"].features}
+        src[self.module.encoding] = batch[self.module.encoding]
+        out = self.module(**src)
+        for k, v in zip(self.out_keys, out):
+            batch[k] = v
+        #--Modified--
         for t, k in zip(self.module["head"].targets, self.true_target_keys):
             batch[k] = self.module["head"].vocabs[t].compute_targets(batch[t][mask_idx])
         for k, m in zip(self.out_keys, self.masked_out_keys):
